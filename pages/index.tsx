@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import Card from '../components/card'
 import Navbar from '../components/navbar'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="fixed bottom-0">
         <Navbar />
       </div>
+      <Card></Card>
     </div>
   )
 }
